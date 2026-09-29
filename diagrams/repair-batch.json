@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Proposed: one repair batch per PR revision",
+    "quality_profile": "showcase",
+    "output": "public/diagrams/repair-batch.html"
+  },
+  "lanes": [
+    { "id": "pr", "label": "PR revision" },
+    { "id": "signals", "label": "Available feedback" },
+    { "id": "coordination", "label": "Coordinator decision" }
+  ],
+  "mainPath": ["revision", "ci", "triage", "repair", "next"],
+  "nodes": [
+    { "id": "revision", "lane": "pr", "col": 0, "type": "backend", "label": "One PR revision", "sublabel": "checks and reviews begin", "width": 150 },
+    { "id": "ci", "lane": "signals", "col": 1, "type": "messagebus", "label": "CI failures", "sublabel": "collect full set", "width": 140 },
+    { "id": "review", "lane": "signals", "col": 2, "type": "messagebus", "label": "Review findings", "sublabel": "threads and requests", "width": 150 },
+    { "id": "conflicts", "lane": "signals", "col": 3, "type": "messagebus", "label": "Branch drift", "sublabel": "conflicts and child stack", "width": 150 },
+    { "id": "triage", "lane": "coordination", "col": 3, "type": "security", "label": "Combined triage", "sublabel": "classify material fixes", "width": 150 },
+    { "id": "repair", "lane": "coordination", "col": 4, "type": "backend", "label": "Coherent repair", "sublabel": "parallel where independent", "width": 156 },
+    { "id": "next", "lane": "pr", "col": 5, "type": "backend", "label": "Next revision", "sublabel": "validate then push once", "width": 150 }
+  ],
+  "edges": [
+    { "id": "revision-ci", "from": "revision", "to": "ci", "label": "check" },
+    { "id": "ci-triage", "from": "ci", "to": "triage", "label": "failure set" },
+    { "id": "review-triage", "from": "review", "to": "triage", "label": "finding set" },
+    { "id": "conflicts-triage", "from": "conflicts", "to": "triage", "label": "breakage set" },
+    { "id": "triage-repair", "from": "triage", "to": "repair", "label": "accepted batch", "variant": "emphasis" },
+    { "id": "repair-next", "from": "repair", "to": "next", "label": "one push", "variant": "emphasis" }
+  ],
+  "cards": [
+    {
+      "dot": "amber", "title": "Evaluation criterion, not an upstream claim",
+      "items": [
+        "Before a follow-up push, gather all currently available CI, review, and integration feedback.",
+        "Check whether a real --ship run groups accepted fixes into one local repair cycle."
+      ]
+    }
+  ]
+}

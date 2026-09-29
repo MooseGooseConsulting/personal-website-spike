@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "OMO source to LazyCodex distribution",
+    "output": "public/diagrams/distribution.html",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/code-yeongyu/oh-my-openagent.git",
+      "provider": "github",
+      "link_mode": "web",
+      "revision": "79ab21eb774b8956ae46e593fafa05a8f11f7aa8"
+    }
+  },
+  "components": [
+    {
+      "id": "omo",
+      "type": "backend",
+      "label": "OMO monorepo",
+      "sublabel": "Shared source workspaces",
+      "pos": [40, 235],
+      "size": [190, 68],
+      "sources": [{"path": "package.json", "line": 8, "end_line": 42}]
+    },
+    {
+      "id": "opencode",
+      "type": "backend",
+      "label": "OpenCode adapter",
+      "sublabel": "Sibling workspace",
+      "pos": [40, 58],
+      "size": [190, 68],
+      "sources": [{"path": "package.json", "line": 40, "end_line": 42}]
+    },
+    {
+      "id": "codex",
+      "type": "backend",
+      "label": "Codex plugin source",
+      "sublabel": "packages/omo-codex/plugin",
+      "pos": [320, 235],
+      "size": [205, 68],
+      "sources": [{"path": "packages/omo-codex/plugin/.codex-plugin/plugin.json", "line": 1, "end_line": 22}]
+    },
+    {
+      "id": "release",
+      "type": "backend",
+      "label": "Release workflow",
+      "sublabel": "Conditional LazyCodex publish",
+      "pos": [640, 235],
+      "size": [220, 68],
+      "sources": [{"path": ".github/workflows/publish.yml", "line": 1159, "end_line": 1176}]
+    },
+    {
+      "id": "sync",
+      "type": "backend",
+      "label": "Marketplace sync",
+      "sublabel": "Copies Codex plugin bundle",
+      "pos": [640, 420],
+      "size": [220, 68],
+      "sources": [{"path": "script/sync-lazycodex-marketplace.ts", "line": 50, "end_line": 90}]
+    },
+    {
+      "id": "lazy",
+      "type": "external",
+      "label": "LazyCodex repo",
+      "sublabel": "plugins/omo mirror",
+      "pos": [970, 420],
+      "size": [190, 68],
+      "sources": [{"path": ".github/workflows/publish.yml", "line": 1162, "end_line": 1169}, {"path": "script/sync-lazycodex-marketplace.ts", "line": 17, "end_line": 20}]
+    }
+  ],
+  "connections": [
+    {"id": "omo-opencode", "from": "omo", "to": "opencode", "label": "contains", "variant": "dashed"},
+    {"id": "omo-codex", "from": "omo", "to": "codex", "label": "contains", "variant": "emphasis"},
+    {"id": "codex-release", "from": "codex", "to": "release", "label": "built for publish"},
+    {"id": "release-sync", "from": "release", "to": "sync", "label": "invokes if enabled"},
+    {"id": "sync-lazy", "from": "sync", "to": "lazy", "label": "copies bundle", "variant": "emphasis"}
+  ]
+}

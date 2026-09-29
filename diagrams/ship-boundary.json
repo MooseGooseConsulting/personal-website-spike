@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "LazyCodex ship: instruction versus enforcement",
+    "quality_profile": "showcase",
+    "output": "public/diagrams/ship-boundary.html",
+    "repository": {
+      "url": "https://github.com/code-yeongyu/lazycodex.git",
+      "revision": "6cf104ed1c8afac13a483f35acc2daf6aef49372"
+    }
+  },
+  "lanes": [
+    { "id": "user", "label": "User request" },
+    { "id": "instructions", "label": "Skill instructions" },
+    { "id": "local", "label": "Executable local hook" },
+    { "id": "external", "label": "External PR lifecycle", "variant": "exception" }
+  ],
+  "mainPath": ["invoke", "skill", "boulder", "stop", "directive"],
+  "nodes": [
+    {
+      "id": "invoke", "lane": "user", "col": 0, "type": "external",
+      "label": "$ulw-execute --ship", "sublabel": "explicit request", "width": 156,
+      "sources": [{ "path": "plugins/omo/skills/ulw-execute/SKILL.md", "line": 48, "end_line": 57 }]
+    },
+    {
+      "id": "skill", "lane": "instructions", "col": 1, "type": "backend",
+      "label": "Delivery protocol", "sublabel": "delegate; check; merge", "width": 156,
+      "sources": [{ "path": "plugins/omo/skills/ulw-execute/SKILL.md", "line": 110, "end_line": 142 }, { "path": "plugins/omo/skills/ulw-execute/SKILL.md", "line": 234, "end_line": 255 }]
+    },
+    {
+      "id": "boulder", "lane": "local", "col": 2, "type": "database",
+      "label": "Boulder + plan", "sublabel": "session-matched state", "width": 152,
+      "sources": [{ "path": "plugins/omo/components/ulw-execute-continuation/src/boulder-reader.ts", "line": 37, "end_line": 56 }]
+    },
+    {
+      "id": "stop", "lane": "local", "col": 3, "type": "security",
+      "label": "Codex Stop hook", "sublabel": "checks local state", "width": 150,
+      "sources": [{ "path": "plugins/omo/components/ulw-execute-continuation/src/codex-hook.ts", "line": 6, "end_line": 16 }]
+    },
+    {
+      "id": "directive", "lane": "local", "col": 4, "type": "messagebus",
+      "label": "Continue directive", "sublabel": "when Stop is blocked", "width": 150,
+      "sources": [{ "path": "plugins/omo/components/ulw-execute-continuation/src/codex-hook.ts", "line": 13, "end_line": 40 }]
+    },
+    {
+      "id": "pr", "lane": "external", "col": 3, "type": "cloud",
+      "label": "CI + review gates", "sublabel": "agent must observe", "width": 150,
+      "sources": [{ "path": "plugins/omo/skills/ulw-execute/SKILL.md", "line": 54, "end_line": 57 }]
+    },
+    {
+      "id": "merged", "lane": "external", "col": 5, "type": "backend",
+      "label": "MERGED target", "sublabel": "not hook-verified", "width": 150,
+      "sources": [{ "path": "plugins/omo/skills/ulw-execute/SKILL.md", "line": 54, "end_line": 57 }]
+    }
+  ],
+  "edges": [
+    { "id": "invoke-skill", "from": "invoke", "to": "skill", "label": "invoke" },
+    { "id": "skill-state", "from": "skill", "to": "boulder", "label": "record work" },
+    { "id": "state-stop", "from": "boulder", "to": "stop", "label": "read state" },
+    { "id": "stop-directive", "from": "stop", "to": "directive", "label": "block Stop", "variant": "emphasis" },
+    { "id": "skill-pr", "from": "skill", "to": "pr", "label": "instruct agent", "variant": "dashed", "role": "branch" },
+    { "id": "pr-merged", "from": "pr", "to": "merged", "label": "agent verifies", "variant": "dashed" }
+  ],
+  "cards": [
+    {
+      "dot": "amber", "title": "Enforcement boundary",
+      "items": [
+        "The Stop hook reads Boulder and the plan; it does not query GitHub.",
+        "MERGED is the skill's delivery instruction, not a result established by this hook."
+      ]
+    }
+  ]
+}
