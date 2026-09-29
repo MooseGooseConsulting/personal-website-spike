@@ -62,7 +62,9 @@ export const GRAPH_NODES = [
   { id: "writing", kind: "output", label: "Writing" },
 ] as const;
 
-export const GRAPH_EDGES: [string, string][] = [
+export type GraphNodeId = (typeof GRAPH_NODES)[number]["id"];
+
+export const GRAPH_EDGES: [GraphNodeId, GraphNodeId][] = [
   ["coldsearch", "agents"],
   ["coldsearch", "gov"],
   ["northstar", "gov"],

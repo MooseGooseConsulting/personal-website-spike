@@ -44,7 +44,7 @@ export function ContextEngineLab() {
 
       <div className="grid flex-1 gap-6 p-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:p-8">
         <div className="relative min-h-[28rem] overflow-hidden rounded-[1.5rem] border border-white/10 bg-black shadow-[0_0_80px_rgba(92,225,255,0.08)]">
-          <ContextEngineCanvas />
+          <ContextEngineCanvas activeStageIndex={active} />
         </div>
 
         <aside className="flex flex-col gap-3">

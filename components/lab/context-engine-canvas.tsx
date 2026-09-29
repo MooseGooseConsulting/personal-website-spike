@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { GRAPH_EDGES, GRAPH_NODES, PIPELINE_STAGES } from "@/lib/notebook-pipeline";
+import { GRAPH_EDGES, GRAPH_NODES, PIPELINE_STAGES, type GraphNodeId } from "@/lib/notebook-pipeline";
 
 type Particle = {
   t: number;
@@ -11,7 +11,7 @@ type Particle = {
   hue: number;
 };
 
-type NodePos = { x: number; y: number; vx: number; vy: number };
+type NodePos = { x: number; y: number; anchorX: number; anchorY: number; vx: number; vy: number };
 
 const KIND_COLOR: Record<string, string> = {
   project: "#5ce1ff",
@@ -19,8 +19,15 @@ const KIND_COLOR: Record<string, string> = {
   output: "#d4fff0",
 };
 
-export function ContextEngineCanvas() {
+export function ContextEngineCanvas({ activeStageIndex }: { activeStageIndex: number }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const activeStageRef = useRef(activeStageIndex);
+  const redrawRef = useRef<(() => void) | null>(null);
+
+  useEffect(() => {
+    activeStageRef.current = activeStageIndex;
+    redrawRef.current?.();
+  }, [activeStageIndex]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -37,12 +44,14 @@ export function ContextEngineCanvas() {
       return {
         x: Math.cos(angle) * 0.32,
         y: Math.sin(angle) * 0.38,
+        anchorX: Math.cos(angle) * 0.32,
+        anchorY: Math.sin(angle) * 0.38,
         vx: 0,
         vy: 0,
       };
     });
 
-    const nodeIndex = (id: string) => GRAPH_NODES.findIndex((n) => n.id === id);
+    const nodeIndex = (id: GraphNodeId) => GRAPH_NODES.findIndex((n) => n.id === id);
 
     const particles: Particle[] = Array.from({ length: 28 }, (_, i) => {
       const edge = GRAPH_EDGES[i % GRAPH_EDGES.length];
@@ -66,17 +75,12 @@ export function ContextEngineCanvas() {
       canvas.style.height = `${h}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     };
-    resize();
-    window.addEventListener("resize", resize);
-
     let last = performance.now();
-    let stageClock = 0;
 
-    const tick = (now: number) => {
+    const tick = (now: number, scheduleNext = true) => {
       if (!running) return;
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
-      if (!reduce) stageClock += dt;
 
       const w = canvas.clientWidth;
       const h = canvas.clientHeight;
@@ -107,8 +111,8 @@ export function ContextEngineCanvas() {
           const p = positions[i];
           p.x += p.vx * dt;
           p.y += p.vy * dt;
-          p.vx += (-p.x * 0.4 - p.vx * 2.2) * dt;
-          p.vy += (-p.y * 0.4 - p.vy * 2.2) * dt;
+          p.vx += ((p.anchorX - p.x) * 0.4 - p.vx * 2.2) * dt;
+          p.vy += ((p.anchorY - p.y) * 0.4 - p.vy * 2.2) * dt;
           const wobble = 0.018;
           p.vx += Math.sin(now / 900 + i) * wobble * dt;
           p.vy += Math.cos(now / 1100 + i * 1.3) * wobble * dt;
@@ -177,7 +181,7 @@ export function ContextEngineCanvas() {
         ctx.fillText(node.label, p.x, p.y + 28);
       });
 
-      const active = PIPELINE_STAGES[Math.floor(stageClock / 2.8) % PIPELINE_STAGES.length];
+      const active = PIPELINE_STAGES[activeStageRef.current];
       ctx.fillStyle = "rgba(8, 10, 16, 0.72)";
       ctx.fillRect(16, 16, 280, 72);
       ctx.strokeStyle = "rgba(92, 225, 255, 0.35)";
@@ -194,11 +198,19 @@ export function ContextEngineCanvas() {
       ctx.font = "11px ui-sans-serif, system-ui, sans-serif";
       ctx.fillText(active.lane.toUpperCase() + " lane", 28, 66);
 
-      raf = requestAnimationFrame(tick);
+      if (scheduleNext && !reduce) raf = requestAnimationFrame(tick);
     };
 
+    redrawRef.current = () => tick(performance.now(), false);
+    resize();
+    const handleResize = () => {
+      resize();
+      if (reduce) redrawRef.current?.();
+    };
+    window.addEventListener("resize", handleResize);
+
     if (reduce) {
-      tick(performance.now());
+      redrawRef.current();
     } else {
       raf = requestAnimationFrame(tick);
     }
@@ -206,7 +218,8 @@ export function ContextEngineCanvas() {
     return () => {
       running = false;
       cancelAnimationFrame(raf);
-      window.removeEventListener("resize", resize);
+      redrawRef.current = null;
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
