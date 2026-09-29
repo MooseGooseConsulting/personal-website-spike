@@ -5,7 +5,7 @@ const NAV = [
   ["Library", "/library"],
   ["Radar", "/radar"],
   ["Digest", "/digest"],
-  ["Lab", "/lab/context-engine"],
+  ["Lab", "/lab"],
 ] as const;
 
 export default function Home() {
@@ -46,6 +46,12 @@ export default function Home() {
             className="rounded-full bg-[#5ce1ff] px-5 py-3 text-sm font-medium text-[#07080c]"
           >
             Open context engine
+          </Link>
+          <Link
+            href="/lab/agent-delivery"
+            className="rounded-full border border-[#5ce1ff]/40 px-5 py-3 text-sm font-medium text-[#5ce1ff] hover:bg-[#5ce1ff]/10"
+          >
+            Explore agent delivery diagrams
           </Link>
           <span className="rounded-full border border-white/15 px-5 py-3 text-sm text-[#f4f1ea]/50">
             Work / Library / Radar still TODO
