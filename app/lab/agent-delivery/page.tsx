@@ -12,7 +12,7 @@ const diagrams = [
     status: "SOURCE-BACKED ARCHITECTURE",
     title: "From OMO source to LazyCodex distribution",
     description:
-      "Where reusable agent definitions, instructions, and dispatch behavior sit in the two inspected codebases.",
+      "The inspected OMO plugin workspaces and publication path into the LazyCodex mirror.",
   },
   {
     slug: "ship-boundary",
