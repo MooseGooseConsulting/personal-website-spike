@@ -1,0 +1,22 @@
+{
+  "name": "@notebook/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Spike-scale radar RSS/URL ingest into SQLite, digest helpers, silent TTS stub.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "radar": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/cli.ts radar",
+    "tts-render": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/cli.ts tts-render",
+    "list": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/cli.ts list"
+  },
+  "dependencies": {
+    "@notebook/schema": "*",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20"
+  }
+}

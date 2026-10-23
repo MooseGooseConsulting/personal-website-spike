@@ -1,0 +1,54 @@
+{
+  "id": "llm-governance",
+  "title": "LLM governance",
+  "summary": "Spike-scale map: policy next to code, public risk vocabulary, and the consulting practice that has to explain the decision before the tool.",
+  "topic": "llm-governance",
+  "nodes": [
+    {
+      "id": "nist-ai-rmf",
+      "title": "NIST AI RMF",
+      "summary": "Map, measure, manage, govern — public language for AI risk.",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "year": 2023,
+      "kind": "standard"
+    },
+    {
+      "id": "northstar-guardian",
+      "title": "NorthStarGuardian",
+      "summary": "PR interview against a North Star the branch cannot rewrite.",
+      "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+      "year": 2025,
+      "kind": "repo"
+    },
+    {
+      "id": "moosegoose",
+      "title": "MooseGoose Consulting",
+      "summary": "AI strategy, actuarial systems, LLM integration. Not this notebook.",
+      "url": "https://moosegoose.xyz/",
+      "year": 2025,
+      "kind": "note"
+    },
+    {
+      "id": "model-risk-habit",
+      "title": "Model risk as a habit",
+      "summary": "On-site essay: the model does what you told it.",
+      "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+      "year": 2026,
+      "kind": "post"
+    },
+    {
+      "id": "ow-practice",
+      "title": "Oliver Wyman actuarial practice",
+      "summary": "Nine years of model review, LTC, AXIS/Prophet, governance frameworks.",
+      "url": "https://www.oliverwyman.com/",
+      "year": 2025,
+      "kind": "note"
+    }
+  ],
+  "edges": [
+    { "source": "nist-ai-rmf", "target": "northstar-guardian", "note": "public vocab → repo-native policy" },
+    { "source": "northstar-guardian", "target": "model-risk-habit", "note": "same argument, git-shaped" },
+    { "source": "ow-practice", "target": "moosegoose", "note": "practice → consulting" },
+    { "source": "moosegoose", "target": "model-risk-habit", "note": "consulting site vs notebook" }
+  ]
+}

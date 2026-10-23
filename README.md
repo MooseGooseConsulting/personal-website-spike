@@ -1,16 +1,37 @@
 # Personal notebook spike
 
-Patrick MacLyman’s knowledge-graph site spike: git-backed collections, agent MCP, and a motion lab.
+Patrick MacLyman’s knowledge-graph site: git-backed collections, four live-switchable skins, agent MCP.
 
-This first slice is the **notebook context engine** animation at `/lab/context-engine`. It is scoped to *this* pipeline (radar inbox → SQLite working set → MCP writes → typed graph → RRF related-links → git gate), not a generic Context Engine product demo.
+Collections, Zod contracts, and the build-time graph live in `content/` + `packages/schema`. MCP admin tools and radar/digest ingest live in `packages/mcp` and `packages/ingest`.
 
-The original Codex HTML lived on another machine (`file:///C:/Users/pmacl/Documents/Codex/2026-09-04/can-x20/outputs/context-engine-animation.html`) and was not readable from this workspace, so the Lab piece was rebuilt around the spike architecture.
+## Run
 
 ```bash
 npm install
+npm run check
 npm run dev
 ```
 
-Open [http://localhost:3000/lab/context-engine](http://localhost:3000/lab/context-engine).
+Open [http://localhost:3000](http://localhost:3000). Press **D** for the Skin Dock.
 
-Context7 checked: Next.js App Router / create-next-app; Motion `MotionConfig reducedMotion="user"`.
+```bash
+npm run build
+```
+
+## Monorepo
+
+- `apps/web` — Next.js 16 App Router, Tailwind v4, `motion`, `@content-collections/next`
+- `content/` — git-as-CMS (seeded)
+- `packages/schema` — Zod + graph + RRF (`npm run check`)
+- `packages/mcp` — stdio MCP admin (`.cursor/mcp.json`)
+- `packages/ingest` — RSS/URL → SQLite; silent `tts-render`
+- `architecture/` — LikeC4-style model
+- `AGENTS.md` — operator manual (radar convention, session-complete)
+
+```bash
+npm run mcp:check
+npm run radar
+bash scripts/digest/run.sh weekly --dry-run
+```
+
+pnpm is not required; npm workspaces are configured. `pnpm-workspace.yaml` is present if you switch later.

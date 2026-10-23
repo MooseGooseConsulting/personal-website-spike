@@ -1,0 +1,1 @@
+Silent / pre-baked digest clips from `npm run tts-render -- --all`. Kokoro is skipped. Players should use `audioUrl` on the digest issue (typically `/audio/digest/<slug>.stub.wav`). Transcript in frontmatter is the source of truth.

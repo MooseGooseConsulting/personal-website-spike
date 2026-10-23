@@ -1,8 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -13,15 +11,21 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# next.js & content-collections
+.next/
+out/
+apps/web/.next/
+apps/web/out/
+apps/web/.content-collections/
+.content-collections/
 
 # production
 /build
+dist/
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
 
 # debug
@@ -30,7 +34,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
 
 # vercel
@@ -39,3 +43,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+apps/web/next-env.d.ts
+
+# databases & journals
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# editors
+.cursorindexing
+
+# ingest working set (CMS is content/ + git)
+/var/*
+!/var/README.md

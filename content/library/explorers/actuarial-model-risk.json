@@ -1,0 +1,63 @@
+{
+  "id": "actuarial-model-risk",
+  "title": "Actuarial model risk",
+  "summary": "Spike-scale map from public CV and the Prophet LTC newsletter — not a SciX library.",
+  "topic": "actuarial-systems",
+  "nodes": [
+    {
+      "id": "prophet-vol-7",
+      "title": "Profiting from Prophet, Vol. 7",
+      "summary": "LTC combination models, deterministic versus stochastic.",
+      "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+      "year": 2022,
+      "kind": "post"
+    },
+    {
+      "id": "oliver-wyman",
+      "title": "Oliver Wyman Actuarial Practice",
+      "summary": "AXIS, Prophet, ARCVAL, LTC M&A, reserve financing, model-risk frameworks.",
+      "url": "https://www.oliverwyman.com/",
+      "year": 2025,
+      "kind": "note"
+    },
+    {
+      "id": "lifecare",
+      "title": "LifeCare Assurance",
+      "summary": "LTC rate filings; Tableau live reporting migration.",
+      "url": "https://www.linkedin.com/company/lifecareassurance-company",
+      "year": 2016,
+      "kind": "note"
+    },
+    {
+      "id": "pacific-life",
+      "title": "Pacific Life",
+      "summary": "LTC / UL / IUL product desk; VBA tools.",
+      "url": "https://www.pacificlife.com/",
+      "year": 2014,
+      "kind": "note"
+    },
+    {
+      "id": "nist-ai-rmf",
+      "title": "NIST AI RMF",
+      "summary": "The same challenge function, new vendor list.",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "year": 2023,
+      "kind": "standard"
+    },
+    {
+      "id": "actuarial-knowledge",
+      "title": "ActuarialKnowledge",
+      "summary": "Private knowledge tooling. Public-safe node only.",
+      "url": "/work#actuarial-knowledge",
+      "year": 2026,
+      "kind": "note"
+    }
+  ],
+  "edges": [
+    { "source": "oliver-wyman", "target": "prophet-vol-7", "note": "public newsletter trail" },
+    { "source": "lifecare", "target": "oliver-wyman", "note": "LTC into the practice" },
+    { "source": "pacific-life", "target": "lifecare", "note": "product desk → filings" },
+    { "source": "oliver-wyman", "target": "nist-ai-rmf", "note": "model risk vocabulary" },
+    { "source": "actuarial-knowledge", "target": "oliver-wyman", "note": "private tooling, public lineage" }
+  ]
+}

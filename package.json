@@ -2,26 +2,26 @@
   "name": "personal-website-spike",
   "version": "0.1.0",
   "private": true,
+  "description": "Patrick MacLyman knowledge-graph notebook — git-backed collections, four live skins, agent MCP.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "npm run dev -w @notebook/web",
+    "check": "npm run check -w @notebook/schema",
+    "build": "npm run check && npm run build -w @notebook/web",
+    "start": "npm run start -w @notebook/web",
+    "lint": "npm run lint -w @notebook/web",
+    "mcp": "npm run start -w @notebook/mcp",
+    "mcp:http": "npm run http -w @notebook/mcp",
+    "mcp:check": "npm run self-test -w @notebook/mcp --",
+    "radar": "npm run radar -w @notebook/ingest --",
+    "tts-render": "npm run tts-render -w @notebook/ingest --",
+    "digest": "bash scripts/digest/run.sh"
   },
-  "dependencies": {
-    "motion": "^13.2.0",
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "unrs-resolver@1.12.2": true
   }
 }

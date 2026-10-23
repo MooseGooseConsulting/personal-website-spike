@@ -1,0 +1,11 @@
+feeds:
+  - id: arxiv-cs-ai
+    title: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: paper
+    kind: paper
+  - id: arxiv-stat-ml
+    title: arXiv stat.ML
+    url: https://rss.arxiv.org/rss/stat.ML
+    category: paper
+    kind: paper

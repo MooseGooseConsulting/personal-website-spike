@@ -1,0 +1,25 @@
+{
+  "name": "@notebook/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stdio MCP admin server for the git-as-CMS notebook (optional debug HTTP).",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/index.ts",
+    "http": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/index.ts --http",
+    "self-test": "node --experimental-strip-types --no-warnings=ExperimentalWarning src/self-test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@notebook/ingest": "*",
+    "@notebook/schema": "*",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20"
+  }
+}

@@ -1,0 +1,6061 @@
+{
+  "topic:actuarial-systems": {
+    "lexical": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 41.368
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 15.062
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 12.196
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 10.658
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 8.038
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 6.91
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.745
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.719
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.687
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.65
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.595
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.592
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 1
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.048
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.048
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.048
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.047
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.047
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.046
+      }
+    ]
+  },
+  "topic:agent-harnesses": {
+    "lexical": [
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 29.41
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 16.562
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 8.889
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 8.096
+      },
+      {
+        "id": "cv:ucr",
+        "title": "B.A. Business / Managerial Economics",
+        "url": "/cv#ucr",
+        "kind": "cv",
+        "score": 8.007
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 6.384
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.731
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.72
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.602
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.602
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.596
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.55
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.047
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.046
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.046
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.045
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.044
+      }
+    ]
+  },
+  "topic:homelab": {
+    "lexical": [
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 20
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 18.657
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 13.074
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 9.477
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 8.489
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 8.19
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.699
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.624
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.622
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.571
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.563
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.534
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.048
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 0.047
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.046
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.045
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.041
+      }
+    ]
+  },
+  "topic:llm-governance": {
+    "lexical": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 18.735
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 17.051
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 13.354
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 13.262
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 12.209
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 10.777
+      }
+    ],
+    "semantic": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.658
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.635
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.619
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.603
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.594
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.565
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.047
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.046
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 0.046
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.046
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.045
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.045
+      }
+    ]
+  },
+  "topic:multi-agent-systems": {
+    "lexical": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 21.142
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 11.777
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 11.012
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 8.029
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 7.671
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 6.881
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.707
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.605
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.596
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.593
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.591
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.559
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 1
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.049
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.046
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.044
+      },
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 0.042
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.032
+      }
+    ]
+  },
+  "topic:spatial-workflows": {
+    "lexical": [
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 17.359
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 12.609
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 5.94
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 5.936
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 5.654
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 5.496
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.634
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.617
+      },
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 0.551
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.546
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.544
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.539
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.048
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 0.046
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.044
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.044
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.042
+      }
+    ]
+  },
+  "project:actuarial-knowledge": {
+    "lexical": [
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 17.646
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 13.357
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 11.489
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 9.934
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 7.815
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 7.605
+      }
+    ],
+    "semantic": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.641
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.641
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.637
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.6
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.599
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.596
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.032
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.031
+      }
+    ]
+  },
+  "project:broadside": {
+    "lexical": [
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 29.694
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 14.843
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 9.324
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 8.189
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 8.188
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 7.817
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.675
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.673
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.67
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.64
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 0.603
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.567
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 0.048
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.033
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.031
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.031
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.031
+      }
+    ]
+  },
+  "project:capacitor": {
+    "lexical": [
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 15.327
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 7.605
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 6.52
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 6.391
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 6.366
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 6.04
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.677
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.633
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.611
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.608
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.606
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.6
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.048
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.041
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.031
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.031
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.03
+      }
+    ]
+  },
+  "project:coldaine": {
+    "lexical": [
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 28.924
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 13.839
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 13.057
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 10.493
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 8.048
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 6.366
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.666
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.622
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.621
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.611
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 0.596
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.595
+      }
+    ],
+    "graph": [
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.049
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.048
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.04
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 0.032
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.031
+      }
+    ]
+  },
+  "project:coldsearch": {
+    "lexical": [
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 33.9
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 13.486
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 11.232
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 7.973
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 6.837
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 6.217
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.808
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.701
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.659
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.642
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.621
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.612
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.048
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.044
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.031
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.03
+      }
+    ]
+  },
+  "project:moosegoose": {
+    "lexical": [
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 43.882
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 20.214
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 11.289
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 8.099
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 7.434
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 6.653
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.782
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.715
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.699
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.666
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.59
+      },
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 0.573
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.044
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.043
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.041
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.033
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.033
+      }
+    ]
+  },
+  "project:naval-forge": {
+    "lexical": [
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 21.703
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 12.582
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 6.834
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 5.932
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 4.943
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 4.476
+      }
+    ],
+    "semantic": [
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.72
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.615
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.603
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.556
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.554
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.52
+      }
+    ],
+    "graph": [
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.049
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.044
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.033
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.031
+      }
+    ]
+  },
+  "project:northstar-guardian": {
+    "lexical": [
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 40.777
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 33.533
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 12.688
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 8.648
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 8.07
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 6.217
+      }
+    ],
+    "semantic": [
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 0.708
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.702
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.663
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.66
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.638
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.604
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 0.049
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.044
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.032
+      }
+    ]
+  },
+  "project:screen-memory": {
+    "lexical": [
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 10.985
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 8.76
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 8.263
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 7.441
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 7.1
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 6.414
+      }
+    ],
+    "semantic": [
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.667
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.638
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.608
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.599
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.594
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.582
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.045
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.031
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.031
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.031
+      }
+    ]
+  },
+  "output:coldsearch-cli": {
+    "lexical": [
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 28.326
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 12.145
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 7.636
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 7.428
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 6.05
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 4.172
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.642
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.571
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.561
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.557
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.556
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.551
+      }
+    ],
+    "graph": [
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.05
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.031
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.03
+      }
+    ]
+  },
+  "output:northstar-guardian-action": {
+    "lexical": [
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 30.903
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 14.369
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 7.265
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 4.728
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 4.291
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 3.9
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.708
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.575
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.505
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.505
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.505
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.496
+      }
+    ],
+    "graph": [
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.05
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.045
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.032
+      }
+    ]
+  },
+  "output:prophet-ltc": {
+    "lexical": [
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 48.342
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 18.464
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 12.795
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 10.349
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 5.908
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 5.089
+      }
+    ],
+    "semantic": [
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.827
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.757
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.67
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.665
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.65
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.641
+      }
+    ],
+    "graph": [
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 1
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.044
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.031
+      }
+    ]
+  },
+  "concept:model-risk": {
+    "lexical": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 16.004
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 14.794
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 11.782
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 11.433
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 9.753
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 7.992
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.692
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.678
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.66
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 0.614
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.583
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.565
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.043
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.032
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.032
+      }
+    ]
+  },
+  "concept:north-star": {
+    "lexical": [
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 28.472
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 16.775
+      },
+      {
+        "id": "output:northstar-guardian-action",
+        "title": "NorthStarGuardian Action",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "output",
+        "score": 15.216
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 10.792
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 7.714
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 6.488
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.729
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.676
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 0.667
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.66
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.659
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.617
+      }
+    ],
+    "graph": [
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.045
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.045
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.043
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 0.04
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.033
+      }
+    ]
+  },
+  "concept:outside-the-model": {
+    "lexical": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 30.825
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 16.113
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 11.031
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 8.561
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 8.079
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 8.065
+      }
+    ],
+    "semantic": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.72
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.682
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.658
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.616
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.612
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.591
+      }
+    ],
+    "graph": [
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.05
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.046
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.032
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.03
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.03
+      }
+    ]
+  },
+  "concept:reciprocal-rank-fusion": {
+    "lexical": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 11.562
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 6.631
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 6.478
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 5.191
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 4.962
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 4.83
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.659
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.6
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.578
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.573
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.57
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.509
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 0.042
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.032
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.03
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 0.03
+      }
+    ]
+  },
+  "concept:typed-graph": {
+    "lexical": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 19.948
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 15.979
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 8.791
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 6.91
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 6.656
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 5.134
+      }
+    ],
+    "semantic": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.588
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.533
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.521
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.494
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.474
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.441
+      }
+    ],
+    "graph": [
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 0.044
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.042
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.033
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.031
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.031
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.03
+      }
+    ]
+  },
+  "post:the-model-will-do-exactly-what-you-told-it": {
+    "lexical": [
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 50.532
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 46.332
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 42.462
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 40.67
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 31.477
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 29.905
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.785
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.747
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.731
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.729
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.715
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.701
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.032
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.032
+      }
+    ]
+  },
+  "writing:prophet-ltc": {
+    "lexical": [
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 47.45
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 15.299
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 9.545
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 6.609
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 4.263
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 3.96
+      }
+    ],
+    "semantic": [
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.827
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.73
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.671
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.629
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.604
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.595
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.032
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.03
+      }
+    ]
+  },
+  "writing:the-model-will-do-exactly-what-you-told-it": {
+    "lexical": [
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 14.402
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 12.672
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 12.554
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 10.018
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 8.966
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 7.362
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.661
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.614
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.601
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.55
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.542
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.537
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.045
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.032
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.032
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.032
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.032
+      }
+    ]
+  },
+  "talk:placeholder": {
+    "lexical": [
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 16.833
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 9.584
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 6.369
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 5.057
+      },
+      {
+        "id": "concept:typed-graph",
+        "title": "Typed knowledge graph",
+        "url": "/library#typed-graph",
+        "kind": "concept",
+        "score": 4.811
+      },
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 4.322
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.657
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.611
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.602
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 0.599
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.595
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.571
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 0.033
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.032
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.03
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.029
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.029
+      }
+    ]
+  },
+  "lab:beast": {
+    "lexical": [
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 15.221
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 5.695
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 5.35
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 5.256
+      },
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 5.078
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 4.174
+      }
+    ],
+    "semantic": [
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.599
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.544
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.538
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.498
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.48
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.479
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.033
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.03
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.03
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.03
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 0.029
+      }
+    ]
+  },
+  "lab:broadside": {
+    "lexical": [
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 30.03
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 23.923
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 12.705
+      },
+      {
+        "id": "lab:homelab",
+        "title": "Homelab",
+        "url": "/lab#homelab",
+        "kind": "lab",
+        "score": 7.761
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 7.557
+      },
+      {
+        "id": "project:screen-memory",
+        "title": "screen-memory",
+        "url": "/work#screen-memory",
+        "kind": "project",
+        "score": 7.35
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 0.72
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.673
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.625
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.596
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.58
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.58
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "project:naval-forge",
+        "title": "NavalForge",
+        "url": "/work#naval-forge",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.032
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.03
+      }
+    ]
+  },
+  "lab:homelab": {
+    "lexical": [
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 26.269
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 19.455
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 16.385
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 8.19
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 7.727
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 7.455
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.596
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.592
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.569
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.549
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.544
+      },
+      {
+        "id": "cv:moosegoose",
+        "title": "Head LLM Herder",
+        "url": "/cv#moosegoose",
+        "kind": "cv",
+        "score": 0.53
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.041
+      },
+      {
+        "id": "project:coldaine",
+        "title": "Coldaine homelab",
+        "url": "/work#coldaine",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.031
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.03
+      }
+    ]
+  },
+  "art:visualization-workshop": {
+    "lexical": [
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 9.75
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 6.683
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 5.829
+      },
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 4.725
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 4.318
+      },
+      {
+        "id": "lab:beast",
+        "title": "BEAST / robotics",
+        "url": "/lab#beast",
+        "kind": "lab",
+        "score": 3.918
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.642
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.64
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.626
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.625
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 0.582
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.571
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "project:broadside",
+        "title": "Broadside",
+        "url": "/work#broadside",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "talk:placeholder",
+        "title": "TODO public talk",
+        "url": "/talks#placeholder",
+        "kind": "talk",
+        "score": 0.032
+      },
+      {
+        "id": "lab:broadside",
+        "title": "Broadside",
+        "url": "/lab#broadside",
+        "kind": "lab",
+        "score": 0.032
+      },
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 0.031
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.03
+      }
+    ]
+  },
+  "digest:2026-08-31-harnesses": {
+    "lexical": [
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 33.719
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 32.933
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 29.304
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 28.58
+      },
+      {
+        "id": "output:coldsearch-cli",
+        "title": "ColdSearch CLI",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "output",
+        "score": 27.522
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 26.057
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.808
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.747
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.731
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.729
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.707
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.702
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.049
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.033
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.032
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      }
+    ]
+  },
+  "digest:2026-09-04-governance": {
+    "lexical": [
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 26.485
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 23.689
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 23.13
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 20.963
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 20.678
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 19.604
+      }
+    ],
+    "semantic": [
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.795
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.757
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.73
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.729
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.719
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.678
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.047
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.032
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.032
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.031
+      }
+    ]
+  },
+  "cv:lifecare": {
+    "lexical": [
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 8.899
+      },
+      {
+        "id": "project:actuarial-knowledge",
+        "title": "ActuarialKnowledge",
+        "url": "/work#actuarial-knowledge",
+        "kind": "project",
+        "score": 8.142
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 5.671
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 4.732
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 4.269
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 4.029
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.659
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.616
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.57
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.568
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.568
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.551
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.043
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.033
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.032
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.032
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.031
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.03
+      }
+    ]
+  },
+  "cv:moosegoose": {
+    "lexical": [
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 47.267
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 14.834
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 10.493
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 10.471
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 9.823
+      },
+      {
+        "id": "topic:multi-agent-systems",
+        "title": "Multi-agent systems",
+        "url": "/library#multi-agent-systems",
+        "kind": "topic",
+        "score": 9.527
+      }
+    ],
+    "semantic": [
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.782
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.731
+      },
+      {
+        "id": "project:capacitor",
+        "title": "capacitor",
+        "url": "/work#capacitor",
+        "kind": "project",
+        "score": 0.677
+      },
+      {
+        "id": "project:northstar-guardian",
+        "title": "NorthStarGuardian",
+        "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+        "kind": "project",
+        "score": 0.663
+      },
+      {
+        "id": "concept:reciprocal-rank-fusion",
+        "title": "Reciprocal rank fusion",
+        "url": "/library#reciprocal-rank-fusion",
+        "kind": "concept",
+        "score": 0.659
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.647
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.048
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.045
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.039
+      },
+      {
+        "id": "project:moosegoose",
+        "title": "MooseGoose Consulting",
+        "url": "https://moosegoose.xyz/",
+        "kind": "project",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.033
+      },
+      {
+        "id": "topic:homelab",
+        "title": "Homelab",
+        "url": "/library#homelab",
+        "kind": "topic",
+        "score": 0.031
+      }
+    ]
+  },
+  "cv:national-merit": {
+    "lexical": [
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 2.95
+      }
+    ],
+    "semantic": [
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.349
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.348
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 0.344
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.335
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.315
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.313
+      }
+    ],
+    "graph": [],
+    "fused": [
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 0.029
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 0.017
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.016
+      },
+      {
+        "id": "writing:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+        "kind": "writing",
+        "score": 0.016
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.016
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.016
+      }
+    ]
+  },
+  "cv:oliver-wyman": {
+    "lexical": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 54.32
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 21.901
+      },
+      {
+        "id": "output:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "output",
+        "score": 17.717
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 17.283
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 15.887
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 15.833
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.795
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.785
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.745
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.692
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.676
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.672
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.049
+      },
+      {
+        "id": "topic:llm-governance",
+        "title": "LLM governance",
+        "url": "/library#llm-governance",
+        "kind": "topic",
+        "score": 0.046
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.033
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.032
+      },
+      {
+        "id": "concept:model-risk",
+        "title": "Model risk",
+        "url": "/library#model-risk",
+        "kind": "concept",
+        "score": 0.031
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.031
+      }
+    ]
+  },
+  "cv:pacific-life": {
+    "lexical": [
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 7.973
+      },
+      {
+        "id": "cv:national-merit",
+        "title": "National Merit Scholar",
+        "url": "/cv#national-merit",
+        "kind": "cv",
+        "score": 5.692
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 4.58
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 4.239
+      },
+      {
+        "id": "cv:ucr",
+        "title": "B.A. Business / Managerial Economics",
+        "url": "/cv#ucr",
+        "kind": "cv",
+        "score": 3.75
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 3.189
+      }
+    ],
+    "semantic": [
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.654
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 0.626
+      },
+      {
+        "id": "concept:north-star",
+        "title": "North Star",
+        "url": "/library#north-star",
+        "kind": "concept",
+        "score": 0.574
+      },
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 0.568
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.567
+      },
+      {
+        "id": "topic:spatial-workflows",
+        "title": "Spatial workflows",
+        "url": "/library#spatial-workflows",
+        "kind": "topic",
+        "score": 0.539
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.042
+      },
+      {
+        "id": "cv:lifecare",
+        "title": "Actuarial Analyst",
+        "url": "/cv#lifecare",
+        "kind": "cv",
+        "score": 0.033
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.03
+      },
+      {
+        "id": "project:coldsearch",
+        "title": "ColdSearch",
+        "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+        "kind": "project",
+        "score": 0.03
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.029
+      }
+    ]
+  },
+  "cv:ucr": {
+    "lexical": [
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 7.141
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 4.513
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 4.146
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 3.648
+      },
+      {
+        "id": "art:visualization-workshop",
+        "title": "Visualization and deck workshop",
+        "url": "/art#visualization-workshop",
+        "kind": "art",
+        "score": 3.022
+      },
+      {
+        "id": "cv:pacific-life",
+        "title": "National Accounts Coordinator",
+        "url": "/cv#pacific-life",
+        "kind": "cv",
+        "score": 2.95
+      }
+    ],
+    "semantic": [
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.606
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.601
+      },
+      {
+        "id": "digest:2026-09-04-governance",
+        "title": "Model risk in a new jacket",
+        "url": "/digest#2026-09-04-governance",
+        "kind": "digest",
+        "score": 0.529
+      },
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.528
+      },
+      {
+        "id": "writing:prophet-ltc",
+        "title": "Long-term care combination models in Prophet",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+        "kind": "writing",
+        "score": 0.502
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.501
+      }
+    ],
+    "graph": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 1
+      }
+    ],
+    "fused": [
+      {
+        "id": "topic:actuarial-systems",
+        "title": "Actuarial systems",
+        "url": "/library#actuarial-systems",
+        "kind": "topic",
+        "score": 0.033
+      },
+      {
+        "id": "cv:oliver-wyman",
+        "title": "Senior Manager, Actuarial Practice",
+        "url": "/cv#oliver-wyman",
+        "kind": "cv",
+        "score": 0.032
+      },
+      {
+        "id": "digest:2026-08-31-harnesses",
+        "title": "Harnesses that sit outside the model",
+        "url": "/digest#2026-08-31-harnesses",
+        "kind": "digest",
+        "score": 0.032
+      },
+      {
+        "id": "concept:outside-the-model",
+        "title": "Outside the model",
+        "url": "/library#outside-the-model",
+        "kind": "concept",
+        "score": 0.032
+      },
+      {
+        "id": "post:the-model-will-do-exactly-what-you-told-it",
+        "title": "The model will do exactly what you told it",
+        "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+        "kind": "post",
+        "score": 0.031
+      },
+      {
+        "id": "topic:agent-harnesses",
+        "title": "Agent harnesses",
+        "url": "/library#agent-harnesses",
+        "kind": "topic",
+        "score": 0.031
+      }
+    ]
+  }
+}

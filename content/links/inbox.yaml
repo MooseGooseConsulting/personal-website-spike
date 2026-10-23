@@ -1,0 +1,58 @@
+items:
+  - title: ColdSearch
+    url: https://github.com/MooseGooseConsulting/ColdSearch
+    category: Retrieval
+    kind: repo
+    note: "Public README: unified search CLI for search, extract, and crawl across overlapping providers (SearXNG, Tavily, Exa, Brave, Serper, Jina, Firecrawl). CLI-first; config-driven routing; local-first with seams for a later remote executor. 1 star at seed."
+    tags:
+      - coldsearch
+      - retrieval
+    added: "2026-09-04"
+    featured: true
+  - title: NorthStarGuardian
+    url: https://github.com/MooseGooseConsulting/NorthStarGuardian
+    category: Governance
+    kind: repo
+    note: "Public README: advisory GitHub Action that interviews a PR against a committed North Star (docs/northstar.md on the base branch, or Linear). Chronograph is allowlisted configuration stewardship. Pre-alpha. 0 stars at seed."
+    tags:
+      - northstar
+      - governance
+    added: "2026-09-04"
+    featured: true
+  - title: Agent swarms and the new model economics
+    url: https://cursor.com/blog/agent-swarm-model-economics
+    category: Multi-agent
+    kind: article
+    note: "Cursor (Wilson Lin, 2026-07-20): swarm peaks around 1,000 commits/second. Names split-brain design (two planners implement the same concept differently) and planner contention. Mitigation via prompting, shared design docs, compile-checked references, and a reconciler."
+    tags:
+      - swarms
+      - cursor
+    added: "2026-09-04"
+    featured: true
+  - title: Reciprocal Rank Fusion SIGIR 2009
+    url: https://plg.uwaterloo.ca/~gvcormack/cormacksigir09-rrf.pdf
+    category: Retrieval
+    kind: paper
+    note: "Cormack, Clarke, and Buettcher, SIGIR 2009. Rank-level fusion used here at build time (k=60) over lexical, graph, and a stub embedding lane."
+    tags:
+      - rrf
+      - retrieval
+    added: "2026-09-04"
+  - title: NIST AI Risk Management Framework
+    url: https://www.nist.gov/itl/ai-risk-management-framework
+    category: Governance
+    kind: article
+    note: "Public US vocabulary for AI risk — map, measure, manage, govern. Seeded as the library/governance explorer's standard node, not as a SciX corpus."
+    tags:
+      - nist
+      - governance
+    added: "2026-09-04"
+  - title: Profiting from Prophet, Volume 7
+    url: https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html
+    category: Actuarial
+    kind: article
+    note: "Oliver Wyman actuarial newsletter (May 2022) listed on the public CV as long-term care combination models in Prophet, deterministic versus stochastic. Volume 8's index still cites this edition for combo LTC / chronic-care rider functionality."
+    tags:
+      - prophet
+      - ltc
+    added: "2026-09-04"

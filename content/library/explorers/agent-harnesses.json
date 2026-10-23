@@ -1,0 +1,63 @@
+{
+  "id": "agent-harnesses",
+  "title": "Agent harnesses",
+  "summary": "Spike-scale map: CLI retrieval, policy on the PR, and swarm failure modes. Not a 32M-paper engine.",
+  "topic": "agent-harnesses",
+  "nodes": [
+    {
+      "id": "coldsearch",
+      "title": "ColdSearch",
+      "summary": "Unified search/extract/crawl CLI. Config-driven provider routing.",
+      "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+      "year": 2025,
+      "kind": "repo"
+    },
+    {
+      "id": "northstar-guardian",
+      "title": "NorthStarGuardian",
+      "summary": "Advisory Action. Chronograph for allowlisted config care.",
+      "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+      "year": 2025,
+      "kind": "repo"
+    },
+    {
+      "id": "cursor-swarm-econ",
+      "title": "Agent swarms and model economics",
+      "summary": "1,000 commits/second; split-brain planners; contention.",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "year": 2026,
+      "kind": "post"
+    },
+    {
+      "id": "rrf",
+      "title": "Reciprocal Rank Fusion",
+      "summary": "Cormack et al. Rank fusion used at build time here (k=60).",
+      "url": "https://plg.uwaterloo.ca/~gvcormack/cormacksigir09-rrf.pdf",
+      "year": 2009,
+      "kind": "paper"
+    },
+    {
+      "id": "langgraph",
+      "title": "LangGraph",
+      "summary": "Public surface named on the LinkedIn role for decision-support workflows.",
+      "url": "https://langchain-ai.github.io/langgraph/",
+      "year": 2024,
+      "kind": "note"
+    },
+    {
+      "id": "outside-the-model",
+      "title": "Outside the model",
+      "summary": "Curate context and tools before the agent asks.",
+      "url": "/library#outside-the-model",
+      "year": 2026,
+      "kind": "note"
+    }
+  ],
+  "edges": [
+    { "source": "coldsearch", "target": "rrf", "note": "retrieval lanes" },
+    { "source": "coldsearch", "target": "outside-the-model", "note": "CLI as the operator surface" },
+    { "source": "cursor-swarm-econ", "target": "northstar-guardian", "note": "coordination vs committed identity" },
+    { "source": "langgraph", "target": "outside-the-model", "note": "graphs still need a harness" },
+    { "source": "northstar-guardian", "target": "outside-the-model", "note": "policy not in the prompt" }
+  ]
+}

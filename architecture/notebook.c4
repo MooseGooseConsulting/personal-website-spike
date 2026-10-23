@@ -1,0 +1,70 @@
+// LikeC4-style model of the notebook. Documentation, not a build input.
+
+specification {
+  element actor
+  element system
+  element container
+}
+
+model {
+  visitor = actor 'Visitor' {
+    description 'Reads the static notebook. No CMS UI.'
+  }
+
+  patrick = actor 'Patrick or coding agent' {
+    description 'Edits collections or calls MCP tools. Commit is how work ships.'
+  }
+
+  cron = actor 'Digest / radar cron' {
+    description 'scripts/digest/run.sh and npm run radar. Push stays off unless PUSH=1.'
+  }
+
+  notebook = system 'Patrick MacLyman notebook' {
+    content = container 'content/' {
+      description 'Git-as-CMS: projects, topics, concepts, outputs, digest, links/inbox.yaml, cv, writing, talks, art, lab, library explorers.'
+    }
+
+    schema = container '@notebook/schema' {
+      description 'Zod contracts, loadCorpus, buildNotebook, assertCorpusIntegrity, RRF related-links. npm run check writes graph.json + related.json.'
+    }
+
+    web = container 'apps/web' {
+      description 'Next.js 16 App Router + Tailwind v4 + motion + Skin Dock. Reads collections and generated graph. Four skins.'
+    }
+
+    mcp = container '@notebook/mcp' {
+      description 'Stdio MCP admin (optional HTTP). Tools write markdown after schema validation. Wired in .cursor/mcp.json.'
+    }
+
+    ingest = container '@notebook/ingest' {
+      description 'Spike-scale RSS/URL fetch into var/ingest.sqlite. tts-render writes a silent wav. Kokoro skipped.'
+    }
+  }
+
+  git = system 'Git gate' {
+    description 'main is the published source of truth. Dangling edges fail the build. Push is the deploy signal.'
+  }
+
+  host = system 'Static host' {
+    description 'Whatever serves the Next build. Not a second CMS.'
+  }
+
+  visitor -> notebook.web 'browses routes'
+  patrick -> notebook.content 'edits markdown/YAML'
+  patrick -> notebook.mcp 'list_graph, add_radar_link, upsert_*, digest, validate_site'
+  cron -> notebook.ingest 'radar feeds'
+  cron -> notebook.mcp 'propose_digest / publish_digest'
+  notebook.mcp -> notebook.content 'validated writes'
+  notebook.ingest -> notebook.content 'candidates only; publish still goes through MCP or a commit'
+  notebook.content -> notebook.schema 'loadCorpus'
+  notebook.schema -> notebook.web 'graph.json + related.json'
+  notebook.content -> git 'commit'
+  git -> host 'push / CI'
+}
+
+views {
+  view index {
+    title 'Notebook context'
+    include *
+  }
+}

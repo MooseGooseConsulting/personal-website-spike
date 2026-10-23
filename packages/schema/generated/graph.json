@@ -1,0 +1,904 @@
+{
+  "nodes": [
+    {
+      "id": "topic:actuarial-systems",
+      "type": "topic",
+      "slug": "actuarial-systems",
+      "label": "Actuarial systems",
+      "summary": "Valuation, projection, and assumption engines — AXIS, Prophet, ARCVAL — and the workflows wrapped around them.",
+      "url": "/library#actuarial-systems",
+      "links": [],
+      "weight": 1.3
+    },
+    {
+      "id": "topic:agent-harnesses",
+      "type": "topic",
+      "slug": "agent-harnesses",
+      "label": "Agent harnesses",
+      "summary": "Tooling that sits outside the model, curating context and tools before the agent has to ask.",
+      "url": "/library#agent-harnesses",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "topic:homelab",
+      "type": "topic",
+      "slug": "homelab",
+      "label": "Homelab",
+      "summary": "Local-first infrastructure, self-hosted search, and the machines the notebook actually runs on.",
+      "url": "/library#homelab",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "topic:llm-governance",
+      "type": "topic",
+      "slug": "llm-governance",
+      "label": "LLM governance",
+      "summary": "How organizations decide what models are allowed to do, who reviews that, and what evidence they keep.",
+      "url": "/library#llm-governance",
+      "links": [],
+      "weight": 1.4
+    },
+    {
+      "id": "topic:multi-agent-systems",
+      "type": "topic",
+      "slug": "multi-agent-systems",
+      "label": "Multi-agent systems",
+      "summary": "Planner/worker splits, judges, and the contention that shows up when more than one model is allowed to write.",
+      "url": "/library#multi-agent-systems",
+      "links": [],
+      "weight": 1.2
+    },
+    {
+      "id": "topic:spatial-workflows",
+      "type": "topic",
+      "slug": "spatial-workflows",
+      "label": "Spatial workflows",
+      "summary": "Visual encoding of systems — C4, architecture diagrams, 3D reconstruction — so humans and agents share a map.",
+      "url": "/library#spatial-workflows",
+      "links": [],
+      "weight": 1.1
+    },
+    {
+      "id": "project:actuarial-knowledge",
+      "type": "project",
+      "slug": "actuarial-knowledge",
+      "label": "ActuarialKnowledge",
+      "summary": "Private knowledge tooling around actuarial models and the vocabulary they use. Public description only — no private repo contents.",
+      "url": "/work#actuarial-knowledge",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "project:broadside",
+      "type": "project",
+      "slug": "broadside",
+      "label": "Broadside",
+      "summary": "Image-to-3D pipeline for historic warship drawings — the public-safe name for a private reconstruction workshop.",
+      "url": "/work#broadside",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "project:capacitor",
+      "type": "project",
+      "slug": "capacitor",
+      "label": "capacitor",
+      "summary": "Private tooling node. No public repo and no invented description beyond the name on the graph.",
+      "url": "/work#capacitor",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "project:coldaine",
+      "type": "project",
+      "slug": "coldaine",
+      "label": "Coldaine homelab",
+      "summary": "Personal homelab (coldaine) — racks, self-hosted search, and a C4 that is meant to be dense. Public posts describe the diagram; this page does not inventory private hosts.",
+      "url": "/work#coldaine",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "project:coldsearch",
+      "type": "project",
+      "slug": "coldsearch",
+      "label": "ColdSearch",
+      "summary": "Unified search CLI over overlapping provider APIs — search, extract, crawl — with config-driven routing. CLI-first; MCP is not the long-term interface.",
+      "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/MooseGooseConsulting/ColdSearch"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "id": "project:moosegoose",
+      "type": "project",
+      "slug": "moosegoose",
+      "label": "MooseGoose Consulting",
+      "summary": "AI strategy, actuarial systems, and LLM integration. The consulting practice stays at moosegoose.xyz; this notebook is the research graph behind it.",
+      "url": "https://moosegoose.xyz/",
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://moosegoose.xyz/"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "id": "project:naval-forge",
+      "type": "project",
+      "slug": "naval-forge",
+      "label": "NavalForge",
+      "summary": "Companion workshop to Broadside — forging playable or inspectable ship models from the reconstruction pipeline.",
+      "url": "/work#naval-forge",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "project:northstar-guardian",
+      "type": "project",
+      "slug": "northstar-guardian",
+      "label": "NorthStarGuardian",
+      "summary": "Advisory GitHub Action that interviews a pull request against the repo North Star. The PR cannot rewrite the rules it is measured by.",
+      "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "id": "project:screen-memory",
+      "type": "project",
+      "slug": "screen-memory",
+      "label": "screen-memory",
+      "summary": "Private exploration of agent memory — what to keep, what to purge, what must sit outside the context window.",
+      "url": "/work#screen-memory",
+      "links": [],
+      "weight": 1.5
+    },
+    {
+      "id": "output:coldsearch-cli",
+      "type": "output",
+      "slug": "coldsearch-cli",
+      "label": "ColdSearch CLI",
+      "summary": "Public TypeScript CLI for search, extract, and crawl across overlapping providers.",
+      "url": "https://github.com/MooseGooseConsulting/ColdSearch",
+      "links": [
+        {
+          "label": "Open",
+          "url": "https://github.com/MooseGooseConsulting/ColdSearch"
+        }
+      ],
+      "kind": "repo",
+      "weight": 1
+    },
+    {
+      "id": "output:northstar-guardian-action",
+      "type": "output",
+      "slug": "northstar-guardian-action",
+      "label": "NorthStarGuardian Action",
+      "summary": "Advisory PR interview against a committed North Star, with Chronograph for configuration stewardship.",
+      "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian",
+      "links": [
+        {
+          "label": "Open",
+          "url": "https://github.com/MooseGooseConsulting/NorthStarGuardian"
+        }
+      ],
+      "kind": "repo",
+      "weight": 1
+    },
+    {
+      "id": "output:prophet-ltc",
+      "type": "output",
+      "slug": "prophet-ltc",
+      "label": "Long-term care combination models in Prophet",
+      "summary": "Oliver Wyman Profiting from Prophet, Volume 7 — deterministic versus stochastic LTC combo modeling.",
+      "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+      "links": [
+        {
+          "label": "Open",
+          "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html"
+        }
+      ],
+      "kind": "external",
+      "weight": 1
+    },
+    {
+      "id": "concept:model-risk",
+      "type": "concept",
+      "slug": "model-risk",
+      "label": "Model risk",
+      "summary": "The practice of challenging models — assumptions, code, and use — so a valuation or an LLM workflow cannot silently drift from what it was approved to do.",
+      "url": "/library#model-risk",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "concept:north-star",
+      "type": "concept",
+      "slug": "north-star",
+      "label": "North Star",
+      "summary": "A committed, reviewable statement of what a repo is for. PRs are judged against the base-branch copy so a change cannot rewrite the rules it is being measured by.",
+      "url": "/library#north-star",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "concept:outside-the-model",
+      "type": "concept",
+      "slug": "outside-the-model",
+      "label": "Outside the model",
+      "summary": "The useful work of an agent stack happens before the model is invoked — hooks, allowlists, retrieval, policy — so the model is not asked to remember the rules and play every role at once.",
+      "url": "/library#outside-the-model",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "concept:reciprocal-rank-fusion",
+      "type": "concept",
+      "slug": "reciprocal-rank-fusion",
+      "label": "Reciprocal rank fusion",
+      "summary": "A rank-level fusion that scores an item as the sum of 1 / (k + rank) across retrieval lanes. No score calibration required; lexical, graph, and a stub embedding lane can share a list.",
+      "url": "/library#reciprocal-rank-fusion",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "concept:typed-graph",
+      "type": "concept",
+      "slug": "typed-graph",
+      "label": "Typed knowledge graph",
+      "summary": "Collections with typed references (projects ↔ topics ↔ outputs, plus concepts). A slug that does not resolve fails the build. Git is the review gate.",
+      "url": "/library#typed-graph",
+      "links": [],
+      "weight": 1
+    },
+    {
+      "id": "post:the-model-will-do-exactly-what-you-told-it",
+      "type": "post",
+      "slug": "the-model-will-do-exactly-what-you-told-it",
+      "label": "The model will do exactly what you told it",
+      "summary": "Why this notebook is a typed graph in git, not another CMS, and why that is an actuarial habit rather than a web one.",
+      "url": "/writing/the-model-will-do-exactly-what-you-told-it",
+      "links": [],
+      "kind": "essay",
+      "weight": 1
+    },
+    {
+      "id": "writing:prophet-ltc",
+      "type": "writing",
+      "slug": "prophet-ltc",
+      "label": "Long-term care combination models in Prophet",
+      "summary": "Public Oliver Wyman Profiting from Prophet, Volume 7 — deterministic versus stochastic LTC combination models.",
+      "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html",
+      "links": [
+        {
+          "label": "Open",
+          "url": "https://www.oliverwyman.com/our-expertise/insights/2022/may/profiting-from-prophet-vol-7.html"
+        }
+      ],
+      "kind": "technical-report",
+      "weight": 1.4
+    },
+    {
+      "id": "writing:the-model-will-do-exactly-what-you-told-it",
+      "type": "writing",
+      "slug": "the-model-will-do-exactly-what-you-told-it",
+      "label": "The model will do exactly what you told it",
+      "summary": "On-site essay — git as the review gate, dangling edges, and why LLM work is model risk in a new jacket.",
+      "url": "/writing#the-model-will-do-exactly-what-you-told-it",
+      "links": [],
+      "kind": "essay",
+      "weight": 1.4
+    },
+    {
+      "id": "talk:placeholder",
+      "type": "talk",
+      "slug": "placeholder",
+      "label": "TODO public talk",
+      "summary": "Placeholder so the talks collection exists. No public talk page is seeded yet.",
+      "url": "/talks#placeholder",
+      "links": [],
+      "kind": "invited",
+      "weight": 1
+    },
+    {
+      "id": "lab:beast",
+      "type": "lab",
+      "slug": "beast",
+      "label": "BEAST / robotics",
+      "summary": "Robotics / BEAST lab node. Public materials were not available at seed time.",
+      "url": "/lab#beast",
+      "links": [],
+      "kind": "robotics",
+      "weight": 1
+    },
+    {
+      "id": "lab:broadside",
+      "type": "lab",
+      "slug": "broadside",
+      "label": "Broadside",
+      "summary": "Warship reconstruction workshop — image-to-3D from historic drawings. Public-safe; private pipeline stays private.",
+      "url": "/lab#broadside",
+      "links": [],
+      "kind": "simulation",
+      "weight": 1.4
+    },
+    {
+      "id": "lab:homelab",
+      "type": "lab",
+      "slug": "homelab",
+      "label": "Homelab",
+      "summary": "Local-first machines, self-hosted search, and architecture diagrams dense enough for agents.",
+      "url": "/lab#homelab",
+      "links": [],
+      "kind": "homelab",
+      "weight": 1.4
+    },
+    {
+      "id": "art:visualization-workshop",
+      "type": "art",
+      "slug": "visualization-workshop",
+      "label": "Visualization and deck workshop",
+      "summary": "Placeholder for 24-image visualization batches and workshop decks. Not a children's-book gallery.",
+      "url": "/art#visualization-workshop",
+      "links": [],
+      "kind": "visualization",
+      "weight": 1
+    },
+    {
+      "id": "digest:2026-08-31-harnesses",
+      "type": "digest",
+      "slug": "2026-08-31-harnesses",
+      "label": "Harnesses that sit outside the model",
+      "summary": "Sample digest — CLI retrieval, North Star policy on the PR, and why swarm planners need a judge.",
+      "url": "/digest#2026-08-31-harnesses",
+      "links": [],
+      "kind": "weekly",
+      "weight": 1
+    },
+    {
+      "id": "digest:2026-09-04-governance",
+      "type": "digest",
+      "slug": "2026-09-04-governance",
+      "label": "Model risk in a new jacket",
+      "summary": "Sample digest — LLM governance as actuarial model risk, plus the Prophet LTC public trail.",
+      "url": "/digest#2026-09-04-governance",
+      "links": [],
+      "kind": "weekly",
+      "weight": 1
+    },
+    {
+      "id": "cv:lifecare",
+      "type": "cv",
+      "slug": "lifecare",
+      "label": "Actuarial Analyst",
+      "summary": "LTC rate filings and a reporting migration off flat files onto live Tableau.",
+      "url": "/cv#lifecare",
+      "links": [],
+      "kind": "work",
+      "weight": 0.8
+    },
+    {
+      "id": "cv:moosegoose",
+      "type": "cv",
+      "slug": "moosegoose",
+      "label": "Head LLM Herder",
+      "summary": "Principal / Head LLM Herder — AI strategy, actuarial systems, LLM integration.",
+      "url": "/cv#moosegoose",
+      "links": [
+        {
+          "label": "moosegoose.xyz",
+          "url": "https://moosegoose.xyz/"
+        }
+      ],
+      "kind": "work",
+      "weight": 0.8
+    },
+    {
+      "id": "cv:national-merit",
+      "type": "cv",
+      "slug": "national-merit",
+      "label": "National Merit Scholar",
+      "summary": "National Merit Scholar.",
+      "url": "/cv#national-merit",
+      "links": [],
+      "kind": "award",
+      "weight": 0.8
+    },
+    {
+      "id": "cv:oliver-wyman",
+      "type": "cv",
+      "slug": "oliver-wyman",
+      "label": "Senior Manager, Actuarial Practice",
+      "summary": "Actuarial modeling, assumption review, and model-risk work across life and LTC.",
+      "url": "/cv#oliver-wyman",
+      "links": [
+        {
+          "label": "Oliver Wyman",
+          "url": "https://www.oliverwyman.com/"
+        }
+      ],
+      "kind": "work",
+      "weight": 0.8
+    },
+    {
+      "id": "cv:pacific-life",
+      "type": "cv",
+      "slug": "pacific-life",
+      "label": "National Accounts Coordinator",
+      "summary": "Product SME for LTC, UL, and IUL; VBA productivity tools for the desk.",
+      "url": "/cv#pacific-life",
+      "links": [],
+      "kind": "work",
+      "weight": 0.8
+    },
+    {
+      "id": "cv:ucr",
+      "type": "cv",
+      "slug": "ucr",
+      "label": "B.A. Business / Managerial Economics",
+      "summary": "Econometrics at UCR. The habit of asking why the model exists before trusting the output started here.",
+      "url": "/cv#ucr",
+      "links": [],
+      "kind": "education",
+      "weight": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "id": "topic:actuarial-systems~topic:llm-governance~topic-topic",
+      "source": "topic:actuarial-systems",
+      "target": "topic:llm-governance",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "topic:agent-harnesses~topic:llm-governance~topic-topic",
+      "source": "topic:agent-harnesses",
+      "target": "topic:llm-governance",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "topic:agent-harnesses~topic:multi-agent-systems~topic-topic",
+      "source": "topic:agent-harnesses",
+      "target": "topic:multi-agent-systems",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "topic:homelab~topic:spatial-workflows~topic-topic",
+      "source": "topic:homelab",
+      "target": "topic:spatial-workflows",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "topic:homelab~topic:agent-harnesses~topic-topic",
+      "source": "topic:homelab",
+      "target": "topic:agent-harnesses",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "topic:spatial-workflows~topic:agent-harnesses~topic-topic",
+      "source": "topic:spatial-workflows",
+      "target": "topic:agent-harnesses",
+      "kind": "topic-topic"
+    },
+    {
+      "id": "project:actuarial-knowledge~topic:actuarial-systems~project-topic",
+      "source": "project:actuarial-knowledge",
+      "target": "topic:actuarial-systems",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:actuarial-knowledge~topic:llm-governance~project-topic",
+      "source": "project:actuarial-knowledge",
+      "target": "topic:llm-governance",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:broadside~topic:spatial-workflows~project-topic",
+      "source": "project:broadside",
+      "target": "topic:spatial-workflows",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:broadside~project:naval-forge~project-project",
+      "source": "project:broadside",
+      "target": "project:naval-forge",
+      "kind": "project-project"
+    },
+    {
+      "id": "project:capacitor~topic:homelab~project-topic",
+      "source": "project:capacitor",
+      "target": "topic:homelab",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:capacitor~topic:agent-harnesses~project-topic",
+      "source": "project:capacitor",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:capacitor~project:coldaine~project-project",
+      "source": "project:capacitor",
+      "target": "project:coldaine",
+      "kind": "project-project"
+    },
+    {
+      "id": "project:coldaine~topic:homelab~project-topic",
+      "source": "project:coldaine",
+      "target": "topic:homelab",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldaine~topic:spatial-workflows~project-topic",
+      "source": "project:coldaine",
+      "target": "topic:spatial-workflows",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldaine~topic:agent-harnesses~project-topic",
+      "source": "project:coldaine",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldsearch~topic:agent-harnesses~project-topic",
+      "source": "project:coldsearch",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldsearch~topic:llm-governance~project-topic",
+      "source": "project:coldsearch",
+      "target": "topic:llm-governance",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldsearch~topic:homelab~project-topic",
+      "source": "project:coldsearch",
+      "target": "topic:homelab",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:coldsearch~output:coldsearch-cli~project-output",
+      "source": "project:coldsearch",
+      "target": "output:coldsearch-cli",
+      "kind": "project-output"
+    },
+    {
+      "id": "project:moosegoose~topic:llm-governance~project-topic",
+      "source": "project:moosegoose",
+      "target": "topic:llm-governance",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:moosegoose~topic:actuarial-systems~project-topic",
+      "source": "project:moosegoose",
+      "target": "topic:actuarial-systems",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:moosegoose~topic:agent-harnesses~project-topic",
+      "source": "project:moosegoose",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:moosegoose~output:prophet-ltc~project-output",
+      "source": "project:moosegoose",
+      "target": "output:prophet-ltc",
+      "kind": "project-output"
+    },
+    {
+      "id": "project:naval-forge~topic:spatial-workflows~project-topic",
+      "source": "project:naval-forge",
+      "target": "topic:spatial-workflows",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:northstar-guardian~topic:llm-governance~project-topic",
+      "source": "project:northstar-guardian",
+      "target": "topic:llm-governance",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:northstar-guardian~topic:agent-harnesses~project-topic",
+      "source": "project:northstar-guardian",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:northstar-guardian~topic:multi-agent-systems~project-topic",
+      "source": "project:northstar-guardian",
+      "target": "topic:multi-agent-systems",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:northstar-guardian~output:northstar-guardian-action~project-output",
+      "source": "project:northstar-guardian",
+      "target": "output:northstar-guardian-action",
+      "kind": "project-output"
+    },
+    {
+      "id": "project:screen-memory~topic:agent-harnesses~project-topic",
+      "source": "project:screen-memory",
+      "target": "topic:agent-harnesses",
+      "kind": "project-topic"
+    },
+    {
+      "id": "project:screen-memory~topic:multi-agent-systems~project-topic",
+      "source": "project:screen-memory",
+      "target": "topic:multi-agent-systems",
+      "kind": "project-topic"
+    },
+    {
+      "id": "output:coldsearch-cli~topic:agent-harnesses~output-topic",
+      "source": "output:coldsearch-cli",
+      "target": "topic:agent-harnesses",
+      "kind": "output-topic"
+    },
+    {
+      "id": "output:coldsearch-cli~topic:homelab~output-topic",
+      "source": "output:coldsearch-cli",
+      "target": "topic:homelab",
+      "kind": "output-topic"
+    },
+    {
+      "id": "output:northstar-guardian-action~topic:llm-governance~output-topic",
+      "source": "output:northstar-guardian-action",
+      "target": "topic:llm-governance",
+      "kind": "output-topic"
+    },
+    {
+      "id": "output:northstar-guardian-action~topic:agent-harnesses~output-topic",
+      "source": "output:northstar-guardian-action",
+      "target": "topic:agent-harnesses",
+      "kind": "output-topic"
+    },
+    {
+      "id": "output:northstar-guardian-action~topic:multi-agent-systems~output-topic",
+      "source": "output:northstar-guardian-action",
+      "target": "topic:multi-agent-systems",
+      "kind": "output-topic"
+    },
+    {
+      "id": "output:prophet-ltc~topic:actuarial-systems~output-topic",
+      "source": "output:prophet-ltc",
+      "target": "topic:actuarial-systems",
+      "kind": "output-topic"
+    },
+    {
+      "id": "concept:model-risk~topic:actuarial-systems~concept-topic",
+      "source": "concept:model-risk",
+      "target": "topic:actuarial-systems",
+      "kind": "concept-topic"
+    },
+    {
+      "id": "concept:model-risk~concept:north-star~concept-concept",
+      "source": "concept:model-risk",
+      "target": "concept:north-star",
+      "kind": "concept-concept"
+    },
+    {
+      "id": "concept:north-star~topic:llm-governance~concept-topic",
+      "source": "concept:north-star",
+      "target": "topic:llm-governance",
+      "kind": "concept-topic"
+    },
+    {
+      "id": "concept:north-star~concept:outside-the-model~concept-concept",
+      "source": "concept:north-star",
+      "target": "concept:outside-the-model",
+      "kind": "concept-concept"
+    },
+    {
+      "id": "concept:outside-the-model~topic:agent-harnesses~concept-topic",
+      "source": "concept:outside-the-model",
+      "target": "topic:agent-harnesses",
+      "kind": "concept-topic"
+    },
+    {
+      "id": "concept:outside-the-model~concept:typed-graph~concept-concept",
+      "source": "concept:outside-the-model",
+      "target": "concept:typed-graph",
+      "kind": "concept-concept"
+    },
+    {
+      "id": "concept:reciprocal-rank-fusion~topic:agent-harnesses~concept-topic",
+      "source": "concept:reciprocal-rank-fusion",
+      "target": "topic:agent-harnesses",
+      "kind": "concept-topic"
+    },
+    {
+      "id": "concept:reciprocal-rank-fusion~concept:typed-graph~concept-concept",
+      "source": "concept:reciprocal-rank-fusion",
+      "target": "concept:typed-graph",
+      "kind": "concept-concept"
+    },
+    {
+      "id": "concept:typed-graph~topic:agent-harnesses~concept-topic",
+      "source": "concept:typed-graph",
+      "target": "topic:agent-harnesses",
+      "kind": "concept-topic"
+    },
+    {
+      "id": "concept:typed-graph~concept:north-star~concept-concept",
+      "source": "concept:typed-graph",
+      "target": "concept:north-star",
+      "kind": "concept-concept"
+    },
+    {
+      "id": "post:the-model-will-do-exactly-what-you-told-it~topic:llm-governance~post-topic",
+      "source": "post:the-model-will-do-exactly-what-you-told-it",
+      "target": "topic:llm-governance",
+      "kind": "post-topic"
+    },
+    {
+      "id": "post:the-model-will-do-exactly-what-you-told-it~topic:agent-harnesses~post-topic",
+      "source": "post:the-model-will-do-exactly-what-you-told-it",
+      "target": "topic:agent-harnesses",
+      "kind": "post-topic"
+    },
+    {
+      "id": "post:the-model-will-do-exactly-what-you-told-it~topic:actuarial-systems~post-topic",
+      "source": "post:the-model-will-do-exactly-what-you-told-it",
+      "target": "topic:actuarial-systems",
+      "kind": "post-topic"
+    },
+    {
+      "id": "writing:prophet-ltc~topic:actuarial-systems~writing-topic",
+      "source": "writing:prophet-ltc",
+      "target": "topic:actuarial-systems",
+      "kind": "writing-topic"
+    },
+    {
+      "id": "writing:the-model-will-do-exactly-what-you-told-it~topic:llm-governance~writing-topic",
+      "source": "writing:the-model-will-do-exactly-what-you-told-it",
+      "target": "topic:llm-governance",
+      "kind": "writing-topic"
+    },
+    {
+      "id": "writing:the-model-will-do-exactly-what-you-told-it~topic:agent-harnesses~writing-topic",
+      "source": "writing:the-model-will-do-exactly-what-you-told-it",
+      "target": "topic:agent-harnesses",
+      "kind": "writing-topic"
+    },
+    {
+      "id": "talk:placeholder~topic:agent-harnesses~talk-topic",
+      "source": "talk:placeholder",
+      "target": "topic:agent-harnesses",
+      "kind": "talk-topic"
+    },
+    {
+      "id": "lab:beast~topic:homelab~lab-topic",
+      "source": "lab:beast",
+      "target": "topic:homelab",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "lab:beast~topic:spatial-workflows~lab-topic",
+      "source": "lab:beast",
+      "target": "topic:spatial-workflows",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "lab:broadside~topic:spatial-workflows~lab-topic",
+      "source": "lab:broadside",
+      "target": "topic:spatial-workflows",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "lab:homelab~topic:homelab~lab-topic",
+      "source": "lab:homelab",
+      "target": "topic:homelab",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "lab:homelab~topic:spatial-workflows~lab-topic",
+      "source": "lab:homelab",
+      "target": "topic:spatial-workflows",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "lab:homelab~topic:agent-harnesses~lab-topic",
+      "source": "lab:homelab",
+      "target": "topic:agent-harnesses",
+      "kind": "lab-topic"
+    },
+    {
+      "id": "art:visualization-workshop~topic:spatial-workflows~art-topic",
+      "source": "art:visualization-workshop",
+      "target": "topic:spatial-workflows",
+      "kind": "art-topic"
+    },
+    {
+      "id": "digest:2026-08-31-harnesses~topic:agent-harnesses~digest-topic",
+      "source": "digest:2026-08-31-harnesses",
+      "target": "topic:agent-harnesses",
+      "kind": "digest-topic"
+    },
+    {
+      "id": "digest:2026-08-31-harnesses~topic:multi-agent-systems~digest-topic",
+      "source": "digest:2026-08-31-harnesses",
+      "target": "topic:multi-agent-systems",
+      "kind": "digest-topic"
+    },
+    {
+      "id": "digest:2026-08-31-harnesses~topic:llm-governance~digest-topic",
+      "source": "digest:2026-08-31-harnesses",
+      "target": "topic:llm-governance",
+      "kind": "digest-topic"
+    },
+    {
+      "id": "digest:2026-09-04-governance~topic:llm-governance~digest-topic",
+      "source": "digest:2026-09-04-governance",
+      "target": "topic:llm-governance",
+      "kind": "digest-topic"
+    },
+    {
+      "id": "digest:2026-09-04-governance~topic:actuarial-systems~digest-topic",
+      "source": "digest:2026-09-04-governance",
+      "target": "topic:actuarial-systems",
+      "kind": "digest-topic"
+    },
+    {
+      "id": "cv:lifecare~topic:actuarial-systems~cv-topic",
+      "source": "cv:lifecare",
+      "target": "topic:actuarial-systems",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:moosegoose~topic:llm-governance~cv-topic",
+      "source": "cv:moosegoose",
+      "target": "topic:llm-governance",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:moosegoose~topic:actuarial-systems~cv-topic",
+      "source": "cv:moosegoose",
+      "target": "topic:actuarial-systems",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:moosegoose~topic:agent-harnesses~cv-topic",
+      "source": "cv:moosegoose",
+      "target": "topic:agent-harnesses",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:oliver-wyman~topic:actuarial-systems~cv-topic",
+      "source": "cv:oliver-wyman",
+      "target": "topic:actuarial-systems",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:oliver-wyman~topic:llm-governance~cv-topic",
+      "source": "cv:oliver-wyman",
+      "target": "topic:llm-governance",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:pacific-life~topic:actuarial-systems~cv-topic",
+      "source": "cv:pacific-life",
+      "target": "topic:actuarial-systems",
+      "kind": "cv-topic"
+    },
+    {
+      "id": "cv:ucr~topic:actuarial-systems~cv-topic",
+      "source": "cv:ucr",
+      "target": "topic:actuarial-systems",
+      "kind": "cv-topic"
+    }
+  ]
+}
