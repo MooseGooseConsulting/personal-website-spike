@@ -8,8 +8,13 @@ HTML artifact that lived on another machine, the three `/lab/agent-delivery` dia
 by `node_modules/next/dist/server/lib/generate-agent-files.js`) plus the one-line `@AGENTS.md`
 import that was `CLAUDE.md` - both deleted in `daff7a5`, the same commit that set `agentRules: false`
 in `next.config.ts`. The rules therefore describe agent failure modes only: every rule set keys off
-a file path and a code-level metric, and `tag_codeowners_for_critical_code` is `false` in all four
-gate maps, so no gate can depend on anything except the code in front of it.
+a file path and a code-level metric, `tag_codeowners_for_critical_code` is `false` in all four gate
+maps, and the only match key any set carries is `matching_content_path`, so **path selection is
+entirely code-path-based**. Two of the enabled gates do read CodeScene-side state on top of the file
+itself: `hotspot_decline` reads the file's hotspot classification (which CodeScene derives from the
+code and its change history), and `supervise_goals` / `refactoring_goals` read goals configured in the
+CodeScene project. No gate is conditional on who produced a change - the inputs are the file, its
+measured history and the project's own goals, all of them automated.
 
 The CLI is `cs` 1.0.55. Everything below is reproducible from the repository root:
 
@@ -228,6 +233,12 @@ flag the 164-line canvas, so no glob leaks into another.
 `tag_codeowners_for_critical_code` is `false` in all four maps, the only match key any set carries is
 `matching_content_path`, and no gate is conditional on who or what produced the diff: every gate
 fires on the code in front of it.
+
+**Key naming.** The maps use `tag_codeowners_for_critical_code`, the name `cs docs
+custom-quality-gates-template` prints in 1.0.55 and the one this file validates against. CodeScene's
+published PR-integration page shows an unprefixed `codeowners_for_critical_code` in its examples; if
+the server-side integration ever rejects the prefixed key, the change is four one-line edits in this
+file - do not mix the two names in one map.
 
 ## Maintenance protocol
 
