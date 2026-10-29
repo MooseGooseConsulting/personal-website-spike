@@ -1,0 +1,61 @@
+{
+  "usage": "PR quality gates for personal-website-spike, matched to .codescene/code-health-rules.json set for set and in the same first-match-wins order. The repository is a Next.js App Router scaffold produced entirely by coding agents - Codex for the original lab piece, Archify 3.0.1 for the three diagrams, Next 16 for the AGENTS.md/CLAUDE.md files that daff7a5 deleted and then disabled via agentRules: false - so these gates exist to stop agent-graded regressions from landing quietly, not to route a change to anyone. Every gate depends only on the code in front of it: tag_codeowners_for_critical_code is false in all four gate maps, no set names a matching_team, and no gate is conditional on who or what produced the diff. Gate sets are tried in order and the first matching path wins, so the generated Archify output is excluded first, the two source families get every gate on, and the **/* catch-all keeps every gate on for the remainder - including a future tests/ tree, which is deliberately not given a softer profile before it exists.",
+  "rule_sets": [
+    {
+      "matching_content_path": "public/diagrams/*.html",
+      "matching_content_path_doc": "The three Archify 3.0.1 exports (public/diagrams/distribution.html, repair-batch.html, ship-boundary.html). Every gate is off because the file content is generator output: a regression here is an Archify version or input JSON change, and the fix is to re-run finalize with diagrams/<name>.json, never to refactor the export.",
+      "quality_gates": {
+        "hotspot_decline": false,
+        "new_code_health": false,
+        "supervise_goals": false,
+        "advisory_health_rules": false,
+        "critical_health_rules": false,
+        "refactoring_goals": false,
+        "tag_codeowners_for_critical_code": false
+      },
+      "quality_gates_doc": "All six gates false: hotspot_decline, new_code_health and the health-rule gates would report on 13,700 generated lines that this repository does not own, and refactoring_goals would point at markup the next Archify run overwrites. tag_codeowners_for_critical_code is false like every other map, so the exclusion sends nothing anywhere."
+    },
+    {
+      "matching_content_path": "components/**",
+      "matching_content_path_doc": "The four client components, three of them \"use client\" and all the interactive surface of the site (components/lab/context-engine-canvas.tsx, components/lab/context-engine-lab.tsx, components/providers/motion-root.tsx, components/stub-page.tsx). Every gate on: a pull request that changes a draw loop or an effect must not lower the health of the file it touches, and the 112-line tick closure is the first thing a new pass will grow.",
+      "quality_gates": {
+        "hotspot_decline": true,
+        "new_code_health": true,
+        "supervise_goals": true,
+        "advisory_health_rules": true,
+        "critical_health_rules": true,
+        "refactoring_goals": true,
+        "tag_codeowners_for_critical_code": false
+      },
+      "quality_gates_doc": "All six gates true, tag_codeowners_for_critical_code false. This is the directory where new_code_health has the most work to do - a second canvas effect or a fourth inline branch is a whole-file health change."
+    },
+    {
+      "matching_content_path": "app/**",
+      "matching_content_path_doc": "The App Router tree: app/layout.tsx and the nine route segments, the place where a page silently becomes an application. Every gate on, so a PR that turns a 20-line route into a 200-line one is measured on the file it changed rather than on the average of the repository.",
+      "quality_gates": {
+        "hotspot_decline": true,
+        "new_code_health": true,
+        "supervise_goals": true,
+        "advisory_health_rules": true,
+        "critical_health_rules": true,
+        "refactoring_goals": true,
+        "tag_codeowners_for_critical_code": false
+      },
+      "quality_gates_doc": "All six gates true, tag_codeowners_for_critical_code false. advisory_health_rules stays on beside critical_health_rules so that a page drifting toward the 90-code-line cap is reported while it is still a warning instead of only after it crosses."
+    },
+    {
+      "matching_content_path": "**/*",
+      "matching_content_path_doc": "Catch-all, last: lib/, the config modules, the JSON and Markdown cs cannot score, the five unreferenced Next.js template SVGs under public/, and any directory a future change adds - including a tests/ tree, which gets the same gates as source because no test profile exists yet to soften them.",
+      "quality_gates": {
+        "hotspot_decline": true,
+        "new_code_health": true,
+        "supervise_goals": true,
+        "advisory_health_rules": true,
+        "critical_health_rules": true,
+        "refactoring_goals": true,
+        "tag_codeowners_for_critical_code": false
+      },
+      "quality_gates_doc": "All six gates true, tag_codeowners_for_critical_code false. Deliberately not the pay_down_tech_debt profile: that profile exists to let a PR pay debt down instead of up, and with every scorable file at 10.0 today there is no debt here to pay, so the catch-all asks for the same new-code standard as the two source families."
+    }
+  ]
+}
