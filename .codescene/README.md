@@ -225,8 +225,9 @@ flag the 164-line canvas, so no glob leaks into another.
 | 3 | `app/**` | all six `true` - a page turning into an application is measured on the file it changed |
 | 4 | `**/*` | all six `true` - no `pay_down_tech_debt` here, because with every scorable file at 10.0 there is no debt to pay |
 
-`tag_codeowners_for_critical_code` is `false` in all four maps, no set names a `matching_team`, and no
-gate is conditional on who or what produced the diff: every gate fires on the code in front of it.
+`tag_codeowners_for_critical_code` is `false` in all four maps, the only match key any set carries is
+`matching_content_path`, and no gate is conditional on who or what produced the diff: every gate
+fires on the code in front of it.
 
 ## Maintenance protocol
 
